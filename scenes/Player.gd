@@ -10,7 +10,19 @@ const UP = Vector2(0,-1)
 var velocity = Vector2()
 var jumps_remaining = max_jumps
 
+var cheat = false
+
 func get_input():
+	if (cheat):
+		max_jumps = 1000000
+		speed = 1000
+	if (!cheat):
+		max_jumps = 2
+		speed = 400
+		
+	if (Input.is_action_just_pressed("ui_up") and Input.is_action_just_pressed("ui_select")):
+		cheat = !cheat
+		
 	if (get_tree().current_scene.filename.get_file().get_basename() == 'noob'):
 		var animation = "Noob_Idle"
 		velocity.x = 0

@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/TileMap.tres" type="TileSet" id=2]
 [ext_resource path="res://scenes/NoFall.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/ToFinal.gd" type="Script" id=4]
+[ext_resource path="res://assets/have_idea.tres" type="DynamicFont" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 375.5, 65.5 )
@@ -33,17 +34,20 @@ position = Vector2( 18.5, 140 )
 shape = SubResource( 1 )
 
 [node name="You evolved!" type="Label" parent="."]
-margin_left = 178.0
-margin_top = 976.0
-margin_right = 528.0
-margin_bottom = 994.0
+margin_left = 98.0
+margin_top = 886.0
+margin_right = 600.0
+margin_bottom = 1054.0
+custom_fonts/font = ExtResource( 5 )
 text = "#$%!@.. *$@$*@!123##!#@!782!@? 2#!@&*!#$@%%!"
+autowrap = true
 
 [node name="Shall we\?" type="Label" parent="."]
-margin_left = 5932.0
-margin_top = 4882.0
-margin_right = 6212.0
-margin_bottom = 4896.0
+margin_left = 5908.0
+margin_top = 4885.0
+margin_right = 6678.0
+margin_bottom = 4939.0
+custom_fonts/font = ExtResource( 5 )
 text = "!%@^#@? !213&*#!#*!@23@#*$@.. *#@@!"
 
 [connection signal="body_entered" from="ToFinal" to="ToFinal" method="_on_ToFinal_body_entered"]
