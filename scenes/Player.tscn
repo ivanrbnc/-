@@ -1,0 +1,147 @@
+[gd_scene load_steps=79 format=2]
+
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_008.png" type="Texture" id=1]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_010.png" type="Texture" id=2]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_011.png" type="Texture" id=3]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_009.png" type="Texture" id=4]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_008.png" type="Texture" id=5]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_004.png" type="Texture" id=6]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_009.png" type="Texture" id=7]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_007.png" type="Texture" id=8]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_000.png" type="Texture" id=9]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_001.png" type="Texture" id=10]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_004.png" type="Texture" id=11]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_010.png" type="Texture" id=12]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_005.png" type="Texture" id=13]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_006.png" type="Texture" id=14]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_007.png" type="Texture" id=15]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_003.png" type="Texture" id=16]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_005.png" type="Texture" id=17]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_011.png" type="Texture" id=18]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_002.png" type="Texture" id=19]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Walking/Wraith_01_Moving Forward_003.png" type="Texture" id=20]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_006.png" type="Texture" id=21]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_000.png" type="Texture" id=22]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_001.png" type="Texture" id=23]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_01/PNG Sequences/Idle Blink/Wraith_01_Idle Blinking_002.png" type="Texture" id=24]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_000.png" type="Texture" id=25]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_001.png" type="Texture" id=26]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_002.png" type="Texture" id=27]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_003.png" type="Texture" id=28]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_011.png" type="Texture" id=29]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_008.png" type="Texture" id=30]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_004.png" type="Texture" id=31]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_005.png" type="Texture" id=32]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_007.png" type="Texture" id=33]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_009.png" type="Texture" id=34]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_010.png" type="Texture" id=35]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Idle Blink/Wraith_02_Idle Blinking_006.png" type="Texture" id=36]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_006.png" type="Texture" id=37]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_005.png" type="Texture" id=38]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_002.png" type="Texture" id=39]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_007.png" type="Texture" id=40]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_008.png" type="Texture" id=41]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_010.png" type="Texture" id=42]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_009.png" type="Texture" id=43]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_011.png" type="Texture" id=44]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_001.png" type="Texture" id=45]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_002.png" type="Texture" id=46]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_000.png" type="Texture" id=47]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_000.png" type="Texture" id=48]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_003.png" type="Texture" id=49]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_004.png" type="Texture" id=50]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_004.png" type="Texture" id=51]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_001.png" type="Texture" id=52]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_02/PNG Sequences/Walking/Wraith_02_Moving Forward_003.png" type="Texture" id=53]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_006.png" type="Texture" id=54]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_009.png" type="Texture" id=55]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_011.png" type="Texture" id=56]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_004.png" type="Texture" id=57]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_005.png" type="Texture" id=58]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_010.png" type="Texture" id=59]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_001.png" type="Texture" id=60]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_006.png" type="Texture" id=61]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_005.png" type="Texture" id=62]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_007.png" type="Texture" id=63]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_010.png" type="Texture" id=64]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_000.png" type="Texture" id=65]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_011.png" type="Texture" id=66]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_007.png" type="Texture" id=67]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_009.png" type="Texture" id=68]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_008.png" type="Texture" id=69]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_008.png" type="Texture" id=70]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_003.png" type="Texture" id=71]
+[ext_resource path="res://assets/craftpix-net-563568-free-wraith-tiny-style-2d-sprites/PNG/Wraith_03/PNG Sequences/Walking/Wraith_03_Moving Forward_002.png" type="Texture" id=72]
+[ext_resource path="res://scenes/Player.gd" type="Script" id=73]
+[ext_resource path="res://assets/Free Pixel Art Forest/Preview/Background.png" type="Texture" id=74]
+[ext_resource path="res://assets/Rain.wav" type="AudioStream" id=75]
+[ext_resource path="res://scenes/Timestamp.gd" type="Script" id=76]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 69.0
+height = 78.0
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 36 ), ExtResource( 33 ), ExtResource( 30 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 29 ) ],
+"loop": true,
+"name": "Evolve_Idle",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 48 ), ExtResource( 52 ), ExtResource( 39 ), ExtResource( 53 ), ExtResource( 51 ), ExtResource( 38 ), ExtResource( 37 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 43 ), ExtResource( 42 ), ExtResource( 44 ) ],
+"loop": true,
+"name": "Evolve_Run",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 47 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 58 ), ExtResource( 54 ), ExtResource( 67 ), ExtResource( 70 ), ExtResource( 55 ), ExtResource( 59 ), ExtResource( 56 ) ],
+"loop": true,
+"name": "Final_Idle",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 65 ), ExtResource( 60 ), ExtResource( 72 ), ExtResource( 71 ), ExtResource( 57 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 63 ), ExtResource( 69 ), ExtResource( 68 ), ExtResource( 64 ), ExtResource( 66 ) ],
+"loop": true,
+"name": "Final_Run",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 16 ), ExtResource( 6 ), ExtResource( 17 ), ExtResource( 21 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 12 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "Noob_Idle",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 9 ), ExtResource( 10 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 11 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 1 ), ExtResource( 4 ), ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "Noob_Run",
+"speed": 12.0
+} ]
+
+[node name="Player" type="KinematicBody2D"]
+scale = Vector2( 0.5, 0.5 )
+script = ExtResource( 73 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -1648.0
+margin_top = -840.0
+margin_right = 1656.0
+margin_bottom = 842.0
+texture = ExtResource( 74 )
+expand = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "Noob_Idle"
+frame = 4
+playing = true
+
+[node name="Timestamp" type="Label" parent="."]
+margin_left = 2.0
+margin_top = -238.0
+margin_right = 314.0
+margin_bottom = -168.0
+script = ExtResource( 76 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 75 )
+autoplay = true
